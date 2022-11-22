@@ -1,0 +1,104 @@
+.App {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App>div{
+  width: 100%;
+  height: 100vh;
+  background: url(./Sunny-red-logoimg-bgnone.png) no-repeat bottom -45vh right -30vw;
+  background-size: 900px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+}
+
+.App-header>h1{
+  line-height: 0;
+  font-size: 6rem;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+}
+
+.App-header>p{
+  font-size: 2.64rem;
+  font-weight: 500;
+  line-height: 0;
+  color: rgba(0, 0, 255);
+  margin: 0;
+}
+
+.App-header span{
+  color: blue;
+  font-size: 3rem;
+  font-weight: 500;  
+}
+
+.App-link {
+  margin-top: 3rem;
+}
+
+.App-header>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.App-header button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: rgba(255, 0, 0, 0.3);
+  line-height: 100%;
+  font-size: 2rem;
+  color: rgb(56, 9, 9);
+  border-radius: 8px;
+  border: 2px solid rgb(56, 9, 9);
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.App-header button:hover{
+  background-color: rgb(56, 9, 9);
+  color: white;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
